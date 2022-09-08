@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-import aboutBgImage from "assets/images/about-bg.png";
+// import aboutBgImage from "assets/images/about-bg.png";
 
 const AboutSectionWrapper = styled.div`
   padding: 85px 0;
 
-  background: url(${aboutBgImage});
+  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

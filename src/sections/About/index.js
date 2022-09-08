@@ -11,7 +11,7 @@ import { SectionTitle, SectionBackground } from "reusecore/SectionTitle";
 
 import { FaGooglePlay, FaApple } from "react-icons/fa";
 
-import aboutImage from "assets/images/gaming.png";
+// import aboutImage from "assets/images/gaming.png";
 
 import AboutSectionWrapper from "./about.style";
 
@@ -22,7 +22,7 @@ const About = () => {
         <Row>
           <Col className="lg-5 md-6 sm-12 xs-12">
             <Image
-              src={aboutImage}
+              // src={aboutImage}
               className="about-image"
               alt="Triple Shiba about image"
             />

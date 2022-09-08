@@ -260,7 +260,7 @@ input {
   display: inline-block;
   padding: 25px 30px;
   margin: 35px 0;
-  color: #03e9f4;
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.5s;
@@ -352,7 +352,7 @@ input {
   left: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #c90075);
+  background: linear-gradient(90deg, transparent, #fff);
   animation: animate1 1s linear infinite;
 }
 .swapbtn span {
@@ -396,7 +396,7 @@ input {
   right: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #c90075);
+  background: linear-gradient(270deg, transparent, #ffffff);
   animation: animate3 1s linear infinite;
   animation-delay: 0.5s;
 }
@@ -405,7 +405,7 @@ input {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #c90075);
+  background: linear-gradient(180deg, transparent, #ffffff);
   animation: animate2 1s linear infinite;
 
   -webkit-animation: animate2 1s linear infinite;
@@ -416,18 +416,19 @@ input {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #c90075);
+  background: linear-gradient(360deg, transparent, #ffffff);
   animation: animate4 1s linear infinite;
   animation-delay: 0.75s;
 }
 .swapbtn:hover {
-  background: #c90075;
-  color: #ffffff !important;
-  box-shadow: 0 0 5px #c90075, 0 0 25px #c90075, 0 0 50px #c90075,
-    0 0 200px #c90075;
+  background: #fff;
+  color: #000 !important;
+  box-shadow: 0 0 5px #000, 0 0 25px #000, 0 0 50px #000,
+    0 0 200px #000;
 
   -webkit-box-reflect: below 0.5px linear-gradient(transparent, #0005);
 }
+.logo-image{width:150px}
 
 @keyframes animate1 {
   0% {

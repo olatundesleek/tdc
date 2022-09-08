@@ -1,4 +1,4 @@
-import loadingImage from "../../assets/images/shiba png logo.png";
+// import loadingImage from "../../assets/images/shiba png logo.png";
 // import loadingVideo from "../../assets/images/shiba png logo.png";
 import { Box, Flex } from "@chakra-ui/react";
 
