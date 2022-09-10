@@ -24,7 +24,9 @@ import { useEffect, useState } from "react";
 import Influencers from "../src/sections/Influencers/Influencers";
 import RoadMap from "../src/sections/RoadMap/RoadMap";
 import HowHigh from "../src/sections/HowHigh/HowHigh";
-import Homepage from "../src/components/Homepage/Homepage";
+// import Homepage from "../src/components/Homepage/Homepage";
+import Link from "next/link";
+import logoImage from "assets/images/tdclogo.png";
 
 const Home = () => {
   // declaring application state
@@ -87,7 +89,58 @@ const Home = () => {
       </Head>
 
       <GlobalStyle />
-   <Homepage/>
+      <div>
+      <section class="showcase">
+        <nav className="homepage-nav">
+          <Link href="">
+            <a className="homepage-nav-a">
+              <img className="logo-image" src={logoImage} />
+            </a>
+          </Link>
+        </nav>
+        <div class="video-container">
+          <video src="/video/snoopbackground.mp4" autoPlay loop></video>
+        </div>
+        <div class="content">
+          <Link href="/Roadmap">
+            <button
+              className="main-btn main-btn-1 btn-block btn-lg swapbtn"
+              metamask-switch-network-button=""
+            >
+              <span className="swapspan"></span>
+              <span className="swapspan"></span>
+              <span className="swapspan"></span>
+              <span className="swapspan"></span>
+              ROAD MAP
+            </button>
+          </Link>
+          <Link href="/Tokenomics">
+            <button
+              className="main-btn main-btn-1 btn-block btn-lg swapbtn"
+              metamask-switch-network-button=""
+            >
+              <span className="swapspan"></span>
+              <span className="swapspan"></span>
+              <span className="swapspan"></span>
+              <span className="swapspan"></span>
+             TOKENOMICS
+            </button>
+          </Link>
+          <Link href="/presale">
+            <button
+              className="main-btn main-btn-1 btn-block btn-lg swapbtn"
+              metamask-switch-network-button=""
+            >
+              <span className="swapspan"></span>
+              <span className="swapspan"></span>
+              <span className="swapspan"></span>
+              <span className="swapspan"></span>
+              BUY PRESALE
+            </button>
+          </Link>
+        </div>
+      </section>{" "}
+    </div>
       {/* <BannerThree /> */}
       {/* <CoinFund connection={isConnected} userAccount={userAccount} /> */}
       {/* <Navigation

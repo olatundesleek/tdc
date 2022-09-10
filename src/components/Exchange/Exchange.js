@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { GoPrimitiveDot } from "react-icons/go";
 import Web3 from "web3";
-import thripleimage from "../../assets/images/thripleshiba.png";
+import tdcimage from "../../assets/images/tdclogo.png";
 import spinImage from "../../assets/images/funds-bg.png";
 import bnbSmartChainLogo from "../../assets/images/bnbsmartchainlogo.png";
 import {
@@ -294,7 +294,7 @@ function Exchange({ connectionState, userAccount }) {
               value={tripleShibaAmount}
             />
             <img
-              src={thripleimage}
+              src={tdcimage}
               alt="ZSHIBA Token"
               class="img-fluid flex-grow-0 ml-3"
               width="50"

@@ -24,8 +24,12 @@ import { useEffect, useState } from "react";
 import Influencers from "../src/sections/Influencers/Influencers";
 import RoadMap from "../src/sections/RoadMap/RoadMap";
 import HowHigh from "../src/sections/HowHigh/HowHigh";
+import Link from "next/link";
 
-const Home = () => {
+import logoImage from "assets/images/tdclogo.png";
+import wallpaperImage from "assets/images/snoopwallpaper2.jpg";
+
+const Presale = () => {
   // declaring application state
   const [userAccount, setUserAccount] = useState();
   const [userBalance, setUserBalance] = useState([]);
@@ -70,9 +74,9 @@ const Home = () => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>Triple Shiba | The Power of Deflationary Tokenomics</title>
+        <title>The Dogg Coin | The Power of Deflationary Tokenomics</title>
         <meta
-          name="Triple Shiba"
+          name="The Dogg Coin"
           content="The Power of Deflationary Tokenomics"
         />
         <link rel="apple-touch-icon" href={FavIcon} />
@@ -85,33 +89,48 @@ const Home = () => {
         
       </Head>
 
-      <GlobalStyle />
-      <Navigation
+      {/* <GlobalStyle /> */}
+      {/* <Navigation
         load={loadAccount}
         logout={logoutAccount}
         connection={isConnected}
-      />
+      /> */}
+      <div className="presale-container">
+     <section class="showcase-presale">
+        <nav className="homepage-nav">
+          <Link href="/">
+            <a className="homepage-nav-a">
+              <img className="logo-image" src={logoImage} />
+            </a>
+          </Link>
+        </nav>
+        <div class="video-container">
+          {/* <img className="presale-img-background" src={wallpaperImage} /> */}
+        </div>
+   
+      </section>
       {/* <BannerThree /> */}
       <CoinFund connection={isConnected} userAccount={userAccount} />
-      <BannerTwo />
-      <Banner/>
-      <HowHigh />
+      {/* <BannerTwo />
+      <Banner/> */}
+      {/* <HowHigh /> */}
 
-      <About />
-      <Nft />
-      <Statistics />
+      {/* <About /> */}
+      {/* <Nft /> */}
+      {/* <Statistics /> */}
 
-      <Influencers />
-      <Wallet />
+      {/* <Influencers /> */}
+      {/* <Wallet /> */}
       {/* <Awards /> */}
-      <UserMap />
+      {/* <UserMap /> */}
 
-      <Faq />
-      <RoadMap />
-      <Stack />
-      <Footer />
+      {/* <Faq /> */}
+      {/* <RoadMap /> */}
+      {/* <Stack /> */}
+      {/* <Footer /> */}
+      </div>
     </ThemeProvider>
   );
 };
 
-export default Home;
+export default Presale;
