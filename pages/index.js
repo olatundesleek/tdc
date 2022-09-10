@@ -126,7 +126,7 @@ const Home = () => {
              TOKENOMICS
             </button>
           </Link>
-          <Link href="/presale">
+          <Link href="/Presale">
             <button
               className="main-btn main-btn-1 btn-block btn-lg swapbtn"
               metamask-switch-network-button=""
