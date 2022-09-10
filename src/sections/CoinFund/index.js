@@ -21,7 +21,7 @@ import CoinFundWrapper from "./coinFund.style";
 import Exchange from "../../components/Exchange/Exchange";
 import RoadMap from "../RoadMap/RoadMap";
 
-const launchDate = new Date(2022, 3, 125).getTime() / 1000;
+const launchDate = new Date(2022, 3, 230).getTime() / 1000;
 const todayDate = new Date().getTime() / 1000;
 const timerlaunch = launchDate - todayDate;
 
@@ -73,11 +73,11 @@ const CoinFund = ({ connection, userAccount }) => {
                   </Box>
                   <Box>
                     <p className="presale-Text">
-                      Presale rate - 1 TRISHIB -{" "}
+                      Presale rate - 1 TDC -{" "}
                       <span className="presale-span">0.000001 bnb</span>
                     </p>
                     <p className="listing-text">
-                      Listing rate - 1 TRISHIB -{" "}
+                      Listing rate - 1 TDC -{" "}
                       <span className="listing-span"> 0.00001 bnb</span>
                     </p>
                   </Box>
@@ -108,20 +108,21 @@ const CoinFund = ({ connection, userAccount }) => {
               <Text as="span">$15,000,931</Text>
             </Box> */}
               <Box className="progressbar">
-                <Progress
-                  value={89}
+                <Progress 
+                  value={40}
                   hasStripe
                   isAnimated
                   size="lg"
-                  colorScheme="pink"
+                  // colorScheme="pink"
+                  color={"black"}
                   height="24px"
                   borderRadius="10px"
                 />
               </Box>
               <Flex justifyContent="space-between">
-                <Text as="span">820.20 BNB</Text>
+                <Text as="span">240.10 BNB</Text>
 
-                <Text as="span">950.70 BNB</Text>
+                <Text as="span">950.30 BNB</Text>
               </Flex>
 
               <Box className="payment-getway">

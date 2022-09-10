@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const CoinFundWrapper = styled.div`
-  padding: 110px 0 140px 0;
+  padding: 0px 0 150px 0;
   position: relative;
 
   background-repeat: no-repeat;

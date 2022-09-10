@@ -19,7 +19,7 @@ import FavIcon from "assets/images/fav-icon.png";
 import theme from "assets/theme/theme";
 import GlobalStyle from "assets/theme";
 
-const Home = () => {
+const Tokenomics = () => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
@@ -30,20 +30,15 @@ const Home = () => {
       </Head>
 
       <GlobalStyle />
-      <Navigation />
-      <BannerTwo />
-      <Service />
-      <CoinFund />
-      <About />
-      <Awards />
-      <UserMap />
-      <Wallet />
+     
+     
+     
       <Statistics />
-       <Faq />
-      <Stack />
-      <Footer />
+      
+     
+
     </ThemeProvider>
   );
 };
 
-export default Home;
+export default Tokenomics;
