@@ -433,7 +433,8 @@ display: none;}
 }
 .logo-image{width:150px;filter: drop-shadow(5px 5px 5px #fff)}
 .presale-container{ filter: grayscale(20%);background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;}
-
+.tokenomics-container{height: 100vh; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;}
+.funds-distribution{justify-content: center;}
 @keyframes animate1 {
   0% {
     left: -100%;
@@ -748,10 +749,12 @@ display: none;}
     margin-top: 3em;
     margin-bottom: 3em;
   }
+
   #cd-timeline::before {
     left: 50%;
     margin-left: -2px;
   }
+ 
 }
 .cd-timeline-block {
   position: relative;
@@ -834,6 +837,10 @@ display: none;}
   width: calc(50% - 2px);
   display: inline-block;
 }
+@media screen and (max-width:1000px){ .tokenomics-container {
+  height: 100%;
+  }}
+
 @media (max-width: 500px) {
   .cd-timeline-content .timeline-content-info .timeline-content-info-title,
   .cd-timeline-content .timeline-content-info .timeline-content-info-date {
@@ -1091,6 +1098,14 @@ display: none;}
 	color: #fff;
 	padding: 0 20px;
 }
+.tokenomics-div{
+	
+
+
+
+	color: #fff;
+	padding: 0 20px;}
+  .tokenomics-nav{}
 .showcase-presale{	height: 100px;
 	display: flex;
 	align-items: center;
@@ -1109,6 +1124,7 @@ display: none;}
 	/* background: var(--primary-color) url('./https://traversymedia.com/downloads/cover.jpg') no-repeat center
 		center/cover; */
 }
+.statistics-wrapper{padding: 0 !important;}
 
 .video-container video {
 	min-width: 100%;
@@ -1198,6 +1214,7 @@ display: none;}
     height: 100px;
   }
 }
+
 
 @media screen and (min-width: 600px) {
 }

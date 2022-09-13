@@ -2,32 +2,20 @@ import Head from "next/head";
 
 import { ThemeProvider } from "styled-components";
 import Web3 from "web3";
-import Navigation from "sections/Navigation";
-import BannerTwo from "sections/BannerTwo";
-import Banner from "sections/Banner";
-import Service from "sections/Service";
+
 import CoinFund from "sections/CoinFund";
-import About from "sections/About";
-import Awards from "sections/Awards";
-import UserMap from "sections/UserMap";
-import Wallet from "sections/Wallet";
-import Statistics from "sections/Statistics";
-import Stack from "sections/Stack";
-import Faq from "sections/Faq";
-import Footer from "sections/Footer";
-import BannerThree from "sections/BannerThree";
+
 import FavIcon from "assets/images/fav-icon.png";
 import theme from "assets/theme/theme";
-import GlobalStyle from "assets/theme";
-import Nft from "../src/sections/Nft";
+
 import { useEffect, useState } from "react";
-import Influencers from "../src/sections/Influencers/Influencers";
-import RoadMap from "../src/sections/RoadMap/RoadMap";
-import HowHigh from "../src/sections/HowHigh/HowHigh";
+
+// import RoadMap from "../src/sections/RoadMap/RoadMap";
+
 import Link from "next/link";
 
 import logoImage from "assets/images/tdclogo.png";
-import wallpaperImage from "assets/images/snoopwallpaper2.jpg";
+
 
 const Presale = () => {
   // declaring application state
@@ -105,29 +93,13 @@ const Presale = () => {
           </Link>
         </nav>
         <div class="video-container">
-          {/* <img className="presale-img-background" src={wallpaperImage} /> */}
+      
         </div>
    
       </section>
-      {/* <BannerThree /> */}
+  
       <CoinFund connection={isConnected} userAccount={userAccount} />
-      {/* <BannerTwo />
-      <Banner/> */}
-      {/* <HowHigh /> */}
-
-      {/* <About /> */}
-      {/* <Nft /> */}
-      {/* <Statistics /> */}
-
-      {/* <Influencers /> */}
-      {/* <Wallet /> */}
-      {/* <Awards /> */}
-      {/* <UserMap /> */}
-
-      {/* <Faq /> */}
-      {/* <RoadMap /> */}
-      {/* <Stack /> */}
-      {/* <Footer /> */}
+   
       </div>
     </ThemeProvider>
   );

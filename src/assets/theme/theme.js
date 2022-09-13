@@ -5,7 +5,7 @@ const theme = {
     primaryHoverColor: '#cce5ff',
     secondaryColor: '#383d41',
     headingColor: '#FFFFFF',
-    bodyColor: '#BEABDF',
+    bodyColor: '#000000',
     linkColor: '#1F2AD5',
     NavBG: 'transparent',
     NavBGSolid: '#290E59',

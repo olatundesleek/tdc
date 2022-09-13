@@ -92,7 +92,7 @@ const Home = () => {
       <div>
       <section class="showcase">
         <nav className="homepage-nav">
-          <Link href="">
+          <Link href="/">
             <a className="homepage-nav-a">
               <img className="logo-image" src={logoImage} />
             </a>
