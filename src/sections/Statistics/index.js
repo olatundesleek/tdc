@@ -6,8 +6,9 @@ import Box from "reusecore/Box";
 import Heading1 from "reusecore/Heading";
 import Image from "reusecore/Image";
 
-import statisticsImage1 from "assets/images/tokenomics.png";
-import statisticsImage2 from "assets/images/tkenomics.png";
+import statisticsImage1 from "assets/images/token1.png";
+import statisticsImage2 from "assets/images/token2.png";
+import statisticsImage3 from "assets/images/token3.png";
 
 import StatisticsSectionWrapper from "./statistics.style";
 
@@ -24,8 +25,8 @@ const Statistics = () => {
       </Heading>
       <Box className="statistics-wrapper">
         <Container>
-          <Row>
-            <Col className="md-6 sm-12 xs-12">
+          <Row className="funds-distribution">
+            <Col className="lg-3 md-6 sm-12 xs-12">
               <Box className="statistics-image">
                 <Heading1 as="h2">Funds Allocation</Heading1>
                 <Image
@@ -35,11 +36,21 @@ const Statistics = () => {
                 />
               </Box>
             </Col>
-            <Col className="md-6 sm-12 xs-12">
+            <Col className="lg-3 md-6 sm-12 xs-12">
               <Box className="statistics-image">
                 <Heading1 as="h2">Token Distribution</Heading1>
                 <Image
                   src={statisticsImage2}
+                  alt="cryptic statistics image"
+                  className="distribution-image"
+                />
+              </Box>
+            </Col>
+            <Col className="lg-3 md-6 sm-12 xs-12">
+              <Box className="statistics-image">
+                <Heading1 as="h2">Token Distribution</Heading1>
+                <Image
+                  src={statisticsImage3}
                   alt="cryptic statistics image"
                   className="distribution-image"
                 />
