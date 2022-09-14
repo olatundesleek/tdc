@@ -10,22 +10,19 @@ import Link from "next/link";
 import FavIcon from "assets/images/fav-icon.png";
 import theme from "assets/theme/theme";
 import GlobalStyle from "assets/theme";
+import RoadMap from "../src/sections/RoadMap/RoadMap";
 
-const Tokenomics = () => {
-  return (<>
-  
+const Roadmap = () => {
+  return (
+    <>
       <Head>
-      <title>The Dogg Coin | Tokenomics</title>
+      <title>The Dogg Coin | Roadmap</title>
         <meta name="Description" content="React next landing page" />
         <meta name="theme-color" content="#280D57" />
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
       </Head>
 
-    
-     
-     
-     
-      <div className="tokenomics-container">
+      <div className="roadmap-container">
      <section class="tokenomics-div">
         <nav className="tokenomics-nav">
           <Link href="/">
@@ -35,8 +32,8 @@ const Tokenomics = () => {
           </Link>
         </nav>
     
-      <Statistics/>
-       
+    
+        <RoadMap/>
      
    
       </section>
@@ -44,12 +41,14 @@ const Tokenomics = () => {
     
     
       </div>
-      
+     
      
 
+      
+     
+      </>
    
-    </>
   );
 };
 
-export default Tokenomics;
+export default Roadmap;

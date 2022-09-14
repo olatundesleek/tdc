@@ -51,7 +51,7 @@ const CoinFund = ({ connection, userAccount }) => {
             <Col className="lg-6 md-12 ">
               <Box className="coin-fund-content-left">
                 <Box className="ourJourney">
-                  <Link href="#Roadmap">
+                  <Link href="/Roadmap">
                     <Heading className="journey-text">
                       OUR ROADMAP TO <span className="journey-span">$1USD</span>
                     </Heading>

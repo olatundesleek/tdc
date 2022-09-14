@@ -60,9 +60,9 @@ const Presale = () => {
   }
 
   return (
-    <ThemeProvider theme={theme}>
+   <>
       <Head>
-        <title>The Dogg Coin | The Power of Deflationary Tokenomics</title>
+        <title>The Dogg Coin | Presale </title>
         <meta
           name="The Dogg Coin"
           content="The Power of Deflationary Tokenomics"
@@ -101,7 +101,7 @@ const Presale = () => {
       <CoinFund connection={isConnected} userAccount={userAccount} />
    
       </div>
-    </ThemeProvider>
+      </>
   );
 };
 
