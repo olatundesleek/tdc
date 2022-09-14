@@ -8,13 +8,7 @@ body {
   background-size: cover;
   background-position: center center;
   color: #fff !important;
-  /* background-image: url("https://user-images.githubusercontent.com/26748614/96337246-f14d4580-1085-11eb-8793-a86d929e034d.jpg"),
-    linear-gradient(167deg, rgba(40, 13, 87, 1) 0%, rgba(54, 63, 159, 1) 100%) !important; */
-  background: linear-gradient(
-    167deg,
-    rgba(40, 13, 87, 1) 0%,
-    rgba(54, 63, 159, 1) 100%
-  ) !important;
+
 }
 * {
   margin: 0;
@@ -334,6 +328,7 @@ input {
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
   overflow: hidden; */
+  height: 30px;
 }
 
 .swapspan {
@@ -434,6 +429,7 @@ display: none;}
 .logo-image{width:150px;filter: drop-shadow(5px 5px 5px #fff)}
 .presale-container{ filter: grayscale(20%);background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;}
 .tokenomics-container{height: 100vh; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;}
+.roadmap-container{height: 100%; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;}
 .funds-distribution{justify-content: center;}
 @keyframes animate1 {
   0% {
@@ -733,7 +729,7 @@ display: none;}
   position: relative;
   padding: 2em 0;
   margin-top: 2em;
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
 }
 #cd-timeline::before {
   content: "";
@@ -747,7 +743,7 @@ display: none;}
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
     margin-top: 3em;
-    margin-bottom: 3em;
+   
   }
 
   #cd-timeline::before {

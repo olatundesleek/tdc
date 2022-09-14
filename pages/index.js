@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { ThemeProvider } from "styled-components";
+
 import Web3 from "web3";
 import Navigation from "sections/Navigation";
 import BannerTwo from "sections/BannerTwo";
@@ -17,8 +17,8 @@ import Faq from "sections/Faq";
 import Footer from "sections/Footer";
 import BannerThree from "sections/BannerThree";
 import FavIcon from "assets/images/fav-icon.png";
-import theme from "assets/theme/theme";
-import GlobalStyle from "assets/theme";
+
+
 import Nft from "../src/sections/Nft";
 import { useEffect, useState } from "react";
 import Influencers from "../src/sections/Influencers/Influencers";
@@ -71,7 +71,7 @@ const Home = () => {
   }
 
   return (<>
-    <ThemeProvider theme={theme}>
+   
       <Head>
         <title>The Dogg Coin | The Power of Deflationary Tokenomics</title>
         <meta
@@ -88,7 +88,7 @@ const Home = () => {
         
       </Head>
 
-      <GlobalStyle />
+  
       <div>
       <section class="showcase">
         <nav className="homepage-nav">
@@ -148,7 +148,7 @@ const Home = () => {
         logout={logoutAccount}
         connection={isConnected}
       /> */}
-     </ThemeProvider>
+    
     </>
   );
 };

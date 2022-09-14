@@ -1,8 +1,7 @@
 import "../src/assets/css/style.css";
 import { ChakraProvider } from "@chakra-ui/react";
-import { extendTheme } from "@chakra-ui/react";
-// import NextNProgress from "nextjs-progressbar";
-import NProgress from "nprogress"; //nprogress module
+
+
 import "nprogress/nprogress.css"; //styles of nprogress
 import React, { Fragment, useEffect, useState } from "react";
 import Router from "next/router";

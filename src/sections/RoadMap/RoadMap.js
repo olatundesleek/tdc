@@ -1,5 +1,5 @@
 import { Heading, Text, Box } from "@chakra-ui/react";
-import tripleShibaIcon from "../../assets/images/thripleshiba.png";
+import tdcIcon from "../../assets/images/tdclogo.png";
 function RoadMap() {
   return (
     <Box className="Roadmap" id="Roadmap">
@@ -22,11 +22,11 @@ function RoadMap() {
             </div>
             <p>
               <ul>
-                <li>March 2022: Origin $TRISHIB Presale begins - 900</li>
+                <li>March 2022: Origin $TDC Presale begins - 900</li>
                 <li>BNB raised</li>
                 <li>March 2022: Burning of unsold tokens</li>
                 <li>March 2022; PANCAKESWAP launch.</li>
-                <li>March 2022: In-House $TRISHIB-NFT Marketplace released</li>
+                <li>March 2022: In-House $TDC-NFT Marketplace released</li>
               </ul>
             </p>
             <span class="cd-date">march 16</span>
@@ -42,8 +42,8 @@ function RoadMap() {
 
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-movie">
-            {" "}
-            <img src={tripleShibaIcon} />
+           
+          
           </div>
 
           <div class="cd-timeline-content">
@@ -82,7 +82,7 @@ function RoadMap() {
             <div class="timeline-content-info">
               <span class="timeline-content-info-title">
                 <i class="fa fa-certificate" aria-hidden="true"></i>
-                -Listing rate - 1TRISHIB - 0.00001bnb
+                -Listing rate - 1TDC - 0.00001bnb
               </span>
               <span class="timeline-content-info-date">
                 <i class="fa fa-calendar-o" aria-hidden="true"></i>
@@ -90,11 +90,11 @@ function RoadMap() {
             </div>
             <p>
               <ul>
-                <li>July 2022: Origin $TRISHIB Presale begins - 900</li>
+                <li>July 2022: Origin $TDC Presale begins - 900</li>
                 <li>BNB raised</li>
                 <li>July 2022: Burning of unsold tokens</li>
                 <li>July 2022; PANCAKESWAP launch.</li>
-                <li>July 2022: In-House $TRISHIB-NFT Marketplace released</li>
+                <li>July 2022: In-House $TDC-NFT Marketplace released</li>
               </ul>
             </p>
             <span class="cd-date">July 2022</span>
@@ -126,7 +126,7 @@ function RoadMap() {
         </div>
 
         <div class="cd-timeline-block">
-          <div class="cd-timeline-img cd-location"></div>
+          <div class="cd-timeline-img cd-location">  <img src={tdcIcon} /></div>
 
           <div class="cd-timeline-content">
             <h2>September 2022: UBISOFT PARTNERSHIP</h2>
@@ -143,7 +143,7 @@ function RoadMap() {
               </span>
             </div>
             <ul>
-              <li>TRIPLESHIBA participates in Ubisoft Entrepreneurs Lab</li>
+              <li>The DoggCoin participates in Ubisoft Entrepreneurs Lab</li>
             </ul>
 
             <span class="cd-date">Sep18</span>
@@ -151,7 +151,7 @@ function RoadMap() {
         </div>
 
         <div class="cd-timeline-block">
-          <div class="cd-timeline-img cd-movie"></div>
+          <div class="cd-timeline-img cd-movie">  </div>
 
           <div class="cd-timeline-content">
             <h2>BINANCE LAUNCHPAD push</h2>
