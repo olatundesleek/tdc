@@ -7,7 +7,6 @@ import Box from "reusecore/Box";
 import Heading from "reusecore/Heading";
 import { IoIosArrowDown } from "react-icons/io";
 import Text from "reusecore/Text";
-import { SectionTitle, SectionBackground } from "reusecore/SectionTitle";
 import fundsBg from "assets/images/funds-bg.png";
 import binanceLogo from "assets/images/binance-logo.png";
 import {
