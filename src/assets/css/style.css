@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fugaz+One&family=Roboto:wght@100&display=swap");
 /* import fundsBg from "assets/images/funds-bg.png"; */
 body {
-  background-blend-mode: screen;
+
   scroll-behavior: smooth !important;
 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  
+  background-size: cover !important;
+  background-position:bottom !important;
   color: #fff !important;
+  background-image: url("../images/snoop.gif") !important;
+  background-repeat: no-repeat !important;
+
 
 }
 * {
@@ -329,6 +332,7 @@ input {
   -o-transition: 0.5s;
   overflow: hidden; */
   height: 30px;
+  background: rgba(20,255,100,0.6);
 }
 
 .swapspan {
@@ -427,9 +431,9 @@ display: none;}
   -webkit-box-reflect: below 0.5px linear-gradient(transparent, #0005);
 }
 .logo-image{width:150px;filter: drop-shadow(5px 5px 5px #fff)}
-.presale-container{ filter: grayscale(20%);background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;}
-.tokenomics-container{height: 100vh; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;}
-.roadmap-container{height: 100%; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;}
+.presale-container{ filter: grayscale(20%);background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;background-size: auto;}
+.tokenomics-container{height: 100vh; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;background-size: auto;background-position-x: left;}
+.roadmap-container{height: 100%; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;background-size: auto;}
 .funds-distribution{justify-content: center;}
 @keyframes animate1 {
   0% {
@@ -898,7 +902,7 @@ display: none;}
 
 /*****************************/
 .video-container {
-  position: relative;
+  position: relative;display: none;
 }
 .video-container::after {
 }
