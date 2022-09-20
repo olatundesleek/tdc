@@ -9,7 +9,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import Text from "reusecore/Text";
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle";
 import fundsBg from "assets/images/funds-bg.png";
-import pancakeSwap from "assets/images/pancakeswap.png";
+import binanceLogo from "assets/images/binance-logo.png";
 import {
   FaBitcoin,
   FaCcMastercard,
@@ -53,7 +53,7 @@ const CoinFund = ({ connection, userAccount }) => {
                 <Box className="ourJourney">
                   <Link href="/Roadmap">
                     <Heading className="journey-text">
-                      OUR ROADMAP TO <span className="journey-span">$1USD</span>
+                    JOIN OUR <span className="journey-span">$1USD</span> MASTERPLAN 
                     </Heading>
                   </Link>
                 </Box>
@@ -69,16 +69,16 @@ const CoinFund = ({ connection, userAccount }) => {
                   marginTop="30px"
                 >
                   <Box>
-                    <img className="presale-icon" src={pancakeSwap} />
+                    <img className="presale-icon" src={binanceLogo} />
                   </Box>
                   <Box>
                     <p className="presale-Text">
-                      Presale rate - 1 TDC -{" "}
-                      <span className="presale-span">0.000001 bnb</span>
+                      Presale price - 1 $DOGG -{" "}
+                      <span className="presale-span">0.0054 bnb</span>
                     </p>
                     <p className="listing-text">
-                      Listing rate - 1 TDC -{" "}
-                      <span className="listing-span"> 0.00001 bnb</span>
+                      Listing price - 1 $DOGG -{" "}
+                      <span className="listing-span"> 0.039 bnb</span>
                     </p>
                   </Box>
                 </Flex>
@@ -97,7 +97,7 @@ const CoinFund = ({ connection, userAccount }) => {
             <Col className="lg-6 md-12 countdown-wrap">
               <Box className="countdown-wrapper">
                 <Text> Last moment to grab the COIN </Text>
-                <Text className="listing-text"> (Final Round) </Text>
+                <Text className="listing-text"> (CONCLUDING PRESALE ROUND) </Text>
                 
                 <CountdownTimer {...settings} />
               </Box>
@@ -120,9 +120,9 @@ const CoinFund = ({ connection, userAccount }) => {
                 />
               </Box>
               <Flex justifyContent="space-between">
-                <Text as="span">240.10 BNB</Text>
+                <Text as="span">930 BNB</Text>
 
-                <Text as="span">950.30 BNB</Text>
+                <Text as="span">3715.10 BNB</Text>
               </Flex>
 
               <Box className="payment-getway">

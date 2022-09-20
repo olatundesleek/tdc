@@ -51,7 +51,7 @@ function RoadMap() {
             <div class="timeline-content-info">
               <span class="timeline-content-info-title">
                 <i class="fa fa-certificate" aria-hidden="true"></i>
-                Total Available supply-175m
+                Total Available supply- 1M $DOGGCOINS
               </span>
               <span class="timeline-content-info-date">
                 <i class="fa fa-calendar-o" aria-hidden="true"></i>

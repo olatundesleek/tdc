@@ -7,8 +7,6 @@ import bnbSmartChainLogo from "../../assets/images/bnbsmartchainlogo.png";
 import {
   Alert,
   AlertIcon,
-  AlertTitle,
-  AlertDescription,
   Box,
   Flex,
 } from "@chakra-ui/react";
@@ -251,7 +249,7 @@ function Exchange({ connectionState, userAccount }) {
         </div>
       </div>
       <div className="total-supply">
-        <p>Total available supply - 175M</p>
+        <p>Total available supply - 1M $DOGGCOINS </p>
       </div>
       <div className="exchange-form">
         <div class="special-form-control">
