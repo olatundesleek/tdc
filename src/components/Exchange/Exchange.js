@@ -281,7 +281,7 @@ function Exchange({ connectionState, userAccount }) {
         </div>
         <div class="special-form-control second-input">
           <label for="bnb-amount" class="label mb-2 mt-1">
-            To $TRISHIB
+            To $DOGG
           </label>
           <div class="d-flex align-items-center">
             <input
