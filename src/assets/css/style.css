@@ -647,22 +647,7 @@ display: none;}
   margin: 0 auto;
   text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
 
-  /*ClipBackgroundImage*/
-  /* background: url("../images/animated-text-fill.png") repeat-y;
-  -webkit-background-clip: text;
-  background-clip: text;
-  animation: aitf 80s linear infinite; */
-  /*AnimateBackgroundImage*/
-  /* -webkit-text-fill-color: transparent;
-  -webkit-animation: aitf 80s linear infinite; */
-  /*Activatehardwareaccelerationforsmootheranimations*/
-  /* transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  -webkit-transform: translate3d(0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0); */
+
 }
 .ourJourney {
   margin-top: 50px;
@@ -882,7 +867,7 @@ display: none;}
   font-size: 13px;
   font-size: 0.8125rem;
 }
-.how-high-video {
+/* .how-high-video {
   /* position: fixed;
   right: 0;
   bottom: 0;
@@ -894,11 +879,11 @@ display: none;}
   background-size: cover; */
   /* min-width: 100%;
   min-height: 100%; */
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   /* padding-left: 30px; */
-  border-right: #b096df 3px solid;
-}
+  /* border-right: #b096df 3px solid; */
+/* }  */
 
 /*****************************/
 .video-container {
