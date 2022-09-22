@@ -18,7 +18,7 @@ import {
 
 import CoinFundWrapper from "./coinFund.style";
 import Exchange from "../../components/Exchange/Exchange";
-import RoadMap from "../RoadMap/RoadMap";
+
 
 const launchDate = new Date(2022, 3, 230).getTime() / 1000;
 const todayDate = new Date().getTime() / 1000;
