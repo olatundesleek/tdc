@@ -8,7 +8,7 @@ import Heading from "reusecore/Heading";
 import { IoIosArrowDown } from "react-icons/io";
 import Text from "reusecore/Text";
 import fundsBg from "assets/images/funds-bg.png";
-import binanceLogo from "assets/images/Binance-logo.png";
+import binanceLogo from "assets/images/binancelogo.png";
 import {
   FaBitcoin,
   FaCcMastercard,
