@@ -9,18 +9,18 @@ function RoadMap() {
           <div class="cd-timeline-img cd-picture"></div>
 
           <div class="cd-timeline-content">
-            <h2>December 2021: Concept and Idea - Development begins</h2>
+            <h2>April 2022: Concept and Idea - Development begins</h2>
             <div class="timeline-content-info">
-              <span class="timeline-content-info-title">
+              {/* <span class="timeline-content-info-title">
                 <i class="fa fa-certificate" aria-hidden="true"></i>
-                Presale rate - 0.00001bnb
-              </span>
-              <span class="timeline-content-info-date">
+                Presale price - 0.00001bnb
+              </span> */}
+              {/* <span class="timeline-content-info-date">
                 <i class="fa fa-calendar-o" aria-hidden="true"></i>
                 March 2022 - Present
-              </span>
+              </span> */}
             </div>
-            <p>
+            {/* <p>
               <ul>
                 <li>March 2022: Origin $TDC Presale begins - 900</li>
                 <li>BNB raised</li>
@@ -28,8 +28,8 @@ function RoadMap() {
                 <li>March 2022; PANCAKESWAP launch.</li>
                 <li>March 2022: In-House $TDC-NFT Marketplace released</li>
               </ul>
-            </p>
-            <span class="cd-date">march 16</span>
+            </p> */}
+            <span class="cd-date">April 16</span>
             {/* <ul class="content-skills">
             <li>HTML5</li>
             <li>CSS3</li>
@@ -47,7 +47,7 @@ function RoadMap() {
           </div>
 
           <div class="cd-timeline-content">
-            <h2>April 2022: Breeding game released</h2>
+            <h2>May 2022: First Round of Presale begins - 170 BNB raised</h2>
             <div class="timeline-content-info">
               <span class="timeline-content-info-title">
                 <i class="fa fa-certificate" aria-hidden="true"></i>
@@ -55,22 +55,26 @@ function RoadMap() {
               </span>
               <span class="timeline-content-info-date">
                 <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                April 2022
+               May 2022 
               </span>
             </div>
             <p>
               <ul>
-                <li>April 2022: Ethereum bridge,POLYGON bridge</li>
-                <li>May 2022; coingecko and coinmarketcap listing</li>
-                <li>May 2022: FORMULA 1 sponsorship and promotional collab</li>
+                <li>May 2022: Burning of unsold tokens</li>
+                <li>May 2022; PANCAKESWAP first test launch.</li>
+                <li>May 2022: In-Stream $Doggcoin-NFT Marketplace Test launch.</li>
                 <li>
-                  June 2022: In-House Land/item-NFT marketplace on BNB Layer 2
-                  (Loom Network) release.
+                June 2022: Binance smartchain bridge.
                 </li>
-                <li>June 2022: Unified Land and SHIBIE marketplace</li>
+                <li>June 2022; coingecko and coinmarketcap submissions for December listing.
+</li>
+                <li>June 2022: THEDEATHROWRECORDS sponsorship and promotional collab.
+</li>
+                <li>June 2022: Streaming marketplace on BNB Layer 2 (Smartchain Network) release.
+</li>
               </ul>
             </p>
-            <span class="cd-date">April 18</span>
+            <span class="cd-date">May 18</span>
           </div>
         </div>
 
@@ -78,7 +82,7 @@ function RoadMap() {
           <div class="cd-timeline-img cd-picture"></div>
 
           <div class="cd-timeline-content">
-            <h2>July 2022: Community alpha (card battle game) released</h2>
+            <h2>July 2022: Private; CZ and smartchain team Promotional Endorsements.</h2>
             <div class="timeline-content-info">
               <span class="timeline-content-info-title">
                 <i class="fa fa-certificate" aria-hidden="true"></i>
@@ -90,11 +94,11 @@ function RoadMap() {
             </div>
             <p>
               <ul>
-                <li>July 2022: Origin $TDC Presale begins - 900</li>
-                <li>BNB raised</li>
-                <li>July 2022: Burning of unsold tokens</li>
+                <li>July 2022: Private; Dr Dre and Shark tank Promotional Endorsements.</li>
+                <li>July 2022: Twitter; Queen Latifah and Boosie Promotional Endorsements to boost community.</li>
+                <li>July 2022: Major Billboard/Celebrity promotional Endorments.</li>
                 <li>July 2022; PANCAKESWAP launch.</li>
-                <li>July 2022: In-House $TDC-NFT Marketplace released</li>
+           
               </ul>
             </p>
             <span class="cd-date">July 2022</span>
@@ -105,11 +109,11 @@ function RoadMap() {
           <div class="cd-timeline-img cd-location"></div>
 
           <div class="cd-timeline-content">
-            <h2>August 2022: Mavis Hub released </h2>
+            <h2>Public $DOGGCOIN Presale begins ($2 USD presale price) - 930 BNB raised. </h2>
             <div class="timeline-content-info">
               <span class="timeline-content-info-title">
                 <i class="fa fa-certificate" aria-hidden="true"></i>
-                Front End Developer
+                Proposed Burning of founders unsold tokens.
               </span>
               <span class="timeline-content-info-date">
                 <i class="fa fa-calendar-o" aria-hidden="true"></i>
@@ -117,7 +121,7 @@ function RoadMap() {
             </div>
             <p>
               <ul>
-                <li>August 2022: METAVERSE land area sales</li>
+                <li>Binance Lisiting requirements submitted.</li>
                 <li>August 2022: All land in Quarter 1 - 4600 BNB .</li>
               </ul>
             </p>
@@ -129,24 +133,25 @@ function RoadMap() {
           <div class="cd-timeline-img cd-location">  <img src={tdcIcon} /></div>
 
           <div class="cd-timeline-content">
-            <h2>September 2022: UBISOFT PARTNERSHIP</h2>
+            <h2>September 2022: STREAM-SMARTCHAIN NODE INTERGRATION (for binance subcribers)</h2>
             <div class="timeline-content-info">
               <span class="timeline-content-info-title">
                 <i class="fa fa-certificate" aria-hidden="true">
-                  Permanently Locked Liquidity
+                ONGOING Public Presale ($2 USD presale price)
                 </i>
               </span>
               <span class="timeline-content-info-date">
                 <i class="fa fa-calendar-o" aria-hidden="true">
-                  anti rug pull
+                 ( anti rug pull)
                 </i>
               </span>
             </div>
             <ul>
               <li>The DoggCoin participates in Ubisoft Entrepreneurs Lab</li>
+              
             </ul>
 
-            <span class="cd-date">Sep18</span>
+            <span class="cd-date">Sep 2022</span>
           </div>
         </div>
 
@@ -154,7 +159,7 @@ function RoadMap() {
           <div class="cd-timeline-img cd-movie">  </div>
 
           <div class="cd-timeline-content">
-            <h2>BINANCE LAUNCHPAD push</h2>
+            <h2>December 2022: Final Binance listing ($10 USD listing price)</h2>
             <div class="timeline-content-info">
               <span class="timeline-content-info-title">
                 <i class="fa fa-certificate" aria-hidden="true"></i>
@@ -167,10 +172,35 @@ function RoadMap() {
             </div>
             <p>
               <ul>
-                <li>Heavy marketing and Push for binance listing.</li>
+            <li>  December 2022: Pancakeswap Lisitng.($10 USD lisiting price)</li>
+            <li> January 2023: Dubai Conference with Snoop Dogg (Calvin Cordozar Broadus Jr)</li>
               </ul>
             </p>
-            <span class="cd-date">Oct 26</span>
+            <span class="cd-date">Oct 2022</span>
+          </div>
+        </div>
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-movie">  </div>
+
+          <div class="cd-timeline-content">
+            <h2>January 2023: Dubai Conference with Snoop Dogg (Calvin Cordozar Broadus Jr)</h2>
+            <div class="timeline-content-info">
+              <span class="timeline-content-info-title">
+                <i class="fa fa-certificate" aria-hidden="true"></i>
+              
+              </span>
+              <span class="timeline-content-info-date">
+                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+               
+              </span>
+            </div>
+            <p>
+              <ul>
+            <li> January 2023: 25% founders token burn (for price boost)</li>
+           
+              </ul>
+            </p>
+            <span class="cd-date">Jan 2023</span>
           </div>
         </div>
       </section>
