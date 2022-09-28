@@ -135,7 +135,7 @@ const Home = () => {
               <span className="swapspan"></span>
               <span className="swapspan"></span>
               <span className="swapspan"></span>
-              BUY PRESALE
+              GET INTO DOGGCOIN
             </button>
           </Link>
         </div>

@@ -52,7 +52,7 @@ const CoinFund = ({ connection, userAccount }) => {
                 <Box className="ourJourney">
                   <Link href="/Roadmap">
                     <Heading className="journey-text">
-                    JOIN OUR <span className="journey-span">$1USD</span> MASTERPLAN 
+                    JOIN OUR <span className="journey-span">$10USD</span> ROADMAP
                     </Heading>
                   </Link>
                 </Box>
