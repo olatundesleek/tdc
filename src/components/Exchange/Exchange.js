@@ -14,7 +14,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function Exchange({ connectionState, userAccount }) {
-  const [tripleShibaAmount, setTripleAmount] = useState(1000000);
+  const [tripleShibaAmount, setTripleAmount] = useState(142.5);
   const [clipboardActive, setClipBoardActive] = useState(false);
   const [userTransactionParameters, setUserTransactionParameters] = useState(
     {}
@@ -108,7 +108,7 @@ function Exchange({ connectionState, userAccount }) {
     let bnbHex = Web3.utils.numberToHex(convertedAmount);
 
     // convert bnb input to thriple shiba amount for the sake of user display
-    setTripleAmount(event.target.value * 1000000);
+    setTripleAmount(event.target.value * 142.5);
     setBnbAmount(bnbHex);
 
     // setting the value property of the state userTransaction paramenter

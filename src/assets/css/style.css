@@ -1,15 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fugaz+One&family=Roboto:wght@100&display=swap");
 /* import fundsBg from "assets/images/funds-bg.png"; */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 body {
 
   scroll-behavior: smooth !important;
 
   
-  background-size: cover !important;
-  background-position:bottom !important;
-  color: #fff !important;
-  background-image: url("../images/snoop.gif") !important;
-  background-repeat: no-repeat !important;
+
 
 
 }
@@ -431,9 +429,9 @@ display: none;}
   -webkit-box-reflect: below 0.5px linear-gradient(transparent, #0005);
 }
 .logo-image{width:150px;filter: drop-shadow(5px 5px 5px #fff)}
-.presale-container{ filter: grayscale(20%);background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;background-size: auto;}
-.tokenomics-container{height: 100vh; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;background-size: auto;background-position-x: left;}
-.roadmap-container{height: 100%; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;background-size: auto;}
+.presale-container{ filter: grayscale(20%);background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;background-size: auto;background-attachment: fixed;}
+.tokenomics-container{height: 100vh; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: darkred;background-size: auto;background-position-x: left;background-attachment: fixed;}
+.roadmap-container{height: 100%; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;background-size: auto;background-attachment: fixed;}
 .funds-distribution{justify-content: center;}
 @keyframes animate1 {
   0% {
@@ -481,14 +479,22 @@ display: none;}
 .offline {
   color: red;
 }
+
 .distribution-image {
-  cursor: pointer;
+  cursor: pointer; box-shadow: 0 0 0 0 #fff;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-iteration-count: infinite;
 }
 .info {
   justify-content: flex-end;
   display: flex;
   align-items: center;
 }
+.count{    font-family: 'Orbitron', sans-serif;}
 /* .spin-image {
   position: absolute;
   top: -170px;
@@ -911,7 +917,7 @@ display: none;}
   text-align: center;
 }
 .presale-icon {
-  width: 50px;
+  width: 50px;filter:drop-shadow(3px 3px 3px red)
 }
 .how-high-text {
   font-size: 40px;
@@ -936,10 +942,14 @@ display: none;}
 .presale-Text {
   animation: blinker 0.5s infinite;
   -webkit-animation: blinker 0.5s infinite;
+  color: #fff;
+font-weight: bolder;
 }
 .listing-text {
   animation: blinker 0.7s infinite;
   -webkit-animation: blinker 0.7s infinite;
+  color: #fff;
+font-weight: bolder;
 }
 
 @keyframes blinker {
@@ -1082,6 +1092,11 @@ display: none;}
 	text-align: center;
 	color: #fff;
 	padding: 0 20px;
+  background-size: cover !important;
+  background-position:bottom !important;
+  color: #fff !important;
+  background-image: url("../images/snoop.gif") !important;
+  background-repeat: no-repeat !important;
 }
 .tokenomics-div{
 	
@@ -1110,6 +1125,12 @@ display: none;}
 		center/cover; */
 }
 .statistics-wrapper{padding: 0 !important;}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+
 
 .video-container video {
 	min-width: 100%;
