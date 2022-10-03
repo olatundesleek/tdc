@@ -433,6 +433,13 @@ display: none;}
 .tokenomics-container{height: 100vh; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: darkred;background-size: auto;background-position-x: left;background-attachment: fixed;}
 .roadmap-container{height: 100%; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;background-size: auto;background-attachment: fixed;}
 .funds-distribution{justify-content: center;}
+.progressbar{display: flex;
+ 
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;}
+  .raised{font-weight: bolder;font-size: 20px;color:rgba(255, 208, 0, 0.6)}
+  .totaltoraise{color: #fff;font-weight: bolder;font-size: 20px;}
 @keyframes animate1 {
   0% {
     left: -100%;
@@ -1214,6 +1221,148 @@ font-weight: bolder;
 .marquee-container{z-index: 10000;}
 .overlay::before, .overlay::after{background:none !important; }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1em;
+  text-align: center;
+  color: #444;
+  background: #d0d0d0;
+}
+
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2em;
+  padding: 0;
+}
+section:last-of-type {
+  margin-bottom: 0;
+}
+section article {
+  align-self: center;
+  width: 20em;
+  margin-bottom: 2em;
+}
+section article p, section article:last-of-type {
+  margin-bottom: 0;
+}
+
+.container {
+  z-index: 1;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4em;
+}
+
+.chart {
+  font-size: 1em;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  backface-visibility: visible;
+}
+.bar {
+  font-size: 1em;
+  position: relative;
+  height: 10em;
+  transition: all 0.3s ease-in-out;
+  transform: rotateX(60deg) rotateY(0deg);
+  transform-style: preserve-3d;
+}
+.bar .face {
+  font-size: 1em;
+  position: relative;
+  width: 100%;
+  height: 2em;
+  background-color: rgba(254, 254, 254, .3);
+}
+.bar .face.side-a, .bar .face.side-b {
+  width: 2em;
+}
+.bar .side-a {
+  transform: rotateX(90deg) rotateY(-90deg) translateX(2em) translateY(1em) translateZ(1em);
+}
+.bar .side-b {
+  transform: rotateX(90deg) rotateY(-90deg) translateX(4em) translateY(1em) translateZ(-1em);
+  position: absolute;
+  right: 0;
+}
+.bar .side-0 {
+  transform: rotateX(90deg) rotateY(0) translateX(0) translateY(1em) translateZ(-1em);
+}
+.bar .side-1 {
+  transform: rotateX(90deg) rotateY(0) translateX(0) translateY(1em) translateZ(3em);
+}
+.bar .top {
+  transform: rotateX(0deg) rotateY(0) translateX(0em) translateY(4em) translateZ(2em);
+}
+.bar .floor {
+  box-shadow: 0 0.1em 0.6em rgba(0, 0, 0, .3), 0.6em -0.5em 3em rgba(255, 255, 255, 0.6), 1em -1em 8em #fefefe;
+}
+.growing-bar {
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(255, 208, 0, 0.6);
+  width: 100%;
+  height: 2em;
+}
+.bar.yellow .side-a, .bar.yellow .growing-bar {
+  background-color: rgba(241, 196, 15, .6);
+}
+.bar.yellow .side-0 .growing-bar {
+  box-shadow: -0.5em -1.5em 4em rgba(241, 196, 15, .8);
+}
+.bar.yellow .floor .growing-bar {
+  box-shadow: 0em 0em 2em rgba(255, 255, 255, 0.8);
+}
+.bar.red .side-a, input[id='red']:checked ~ .chart .side-a, .bar.red .growing-bar, input[id='red']:checked ~ .chart .growing-bar {
+  background-color: rgba(255, 187, 0, 0.6);
+}
+
+
+
+
+
+.bar.navy .side-a, .bar.navy .growing-bar {
+  background-color: rgba(10, 64, 105, .6);
+}
+.bar.navy .side-0 .growing-bar {
+  box-shadow: -0.5em -1.5em 4em rgba(10, 64, 105, .8);
+}
+
+
+
+.bar.white .side-a, .bar.white .growing-bar {
+  background-color: rgba(254, 254, 254, .6);
+}
+.bar.white .side-0 .growing-bar {
+  box-shadow: -0.5em -1.5em 4em #fefefe;
+}
+.bar.white .floor .growing-bar {
+  box-shadow: 0em 0em 2em #fefefe;
+}
+.bar.gray .side-a, .bar.gray .growing-bar {
+  background-color: rgba(68, 68, 68, .6);
+}
+.bar.gray .side-0 .growing-bar {
+  box-shadow: -0.5em -1.5em 4em #444;
+}
+.bar.gray .floor .growing-bar {
+  box-shadow: 0em 0em 2em #444;
+}
+
+
+
+
+.bar-75 .growing-bar, input[id='pos-2']:checked ~ .chart .growing-bar {
+  width: 25%;
+}
+
+
 @media (max-width: 767px) {
   .community-slider img {
     width: 100px;
@@ -1222,11 +1371,10 @@ font-weight: bolder;
 }
 
 
-@media screen and (min-width: 600px) {
-}
 
-@media screen and (max-width: 600px) {
-  .balldiv img {
-    width: 80%;
+
+@media screen and (max-width: 700px) {
+  .showcase {
+    background-image: url("../images/snoop1.gif") !important;
   }
 }
