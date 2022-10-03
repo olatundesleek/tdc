@@ -107,41 +107,42 @@ const CoinFund = ({ connection, userAccount }) => {
               <Text as="span">$15,000,931</Text>
             </Box> */}
               <Box className="progressbar">
-                <Progress 
-                  value={40}
-                  hasStripe
-                  isAnimated
-                  size="lg"
-                  // colorScheme="pink"
-                  color={"black"}
-                  height="24px"
-                  borderRadius="10px"
-                />
-              </Box>
-              <Flex justifyContent="space-between">
-                <Text as="span">930 BNB</Text>
+              <Text className="raised" as="span">930 BNB</Text>
 
-                <Text as="span">3715.10 BNB</Text>
-              </Flex>
 
-              <Box className="payment-getway">
-                <Text as="span">
-                  {" "}
-                  <FaBitcoin />{" "}
-                </Text>
-                <Text as="span">
-                  {" "}
-                  <FaCcMastercard />{" "}
-                </Text>
-                <Text as="span">
-                  {" "}
-                  <FaCcVisa />{" "}
-                </Text>
-                <Text as="span">
-                  {" "}
-                  <FaCcDiscover />{" "}
-                </Text>
+              <section>
+            <article>
+             
+                <div class="chart">
+                    <div class="bar bar-75 ">
+                        <div class="face top">
+                            <div class="growing-bar"></div>
+                        </div>
+                        <div class="face side-0">
+                            <div class="growing-bar"></div>
+                        </div>
+                        <div class="face floor">
+                            <div class="growing-bar"></div>
+                        </div>
+                        <div class="face side-a"></div>
+                        <div class="face side-b"></div>
+                        <div class="face side-1">
+                            <div class="growing-bar"></div>
+                        </div>
+                    </div>
+                </div>
+              
+            </article>
+        </section>
+        <Text className="totaltoraise" as="span">3715.10 BNB</Text>
               </Box>
+
+
+             
+              
+             
+
+    
             </Col>
           </Row>
         </Container>

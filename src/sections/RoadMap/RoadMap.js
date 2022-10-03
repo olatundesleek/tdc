@@ -29,7 +29,7 @@ function RoadMap() {
                 <li>March 2022: In-House $TDC-NFT Marketplace released</li>
               </ul>
             </p> */}
-            <span class="cd-date">April 16</span>
+         
             {/* <ul class="content-skills">
             <li>HTML5</li>
             <li>CSS3</li>
@@ -51,7 +51,7 @@ function RoadMap() {
             <div class="timeline-content-info">
               <span class="timeline-content-info-title">
                 <i class="fa fa-certificate" aria-hidden="true"></i>
-                Total Available supply- 1M $DOGGCOINS
+                {/* Total Available supply- 1M $DOGGCOINS */}
               </span>
               <span class="timeline-content-info-date">
                 <i class="fa fa-calendar-o" aria-hidden="true"></i>
@@ -63,6 +63,33 @@ function RoadMap() {
                 <li>May 2022: Burning of unsold tokens</li>
                 <li>May 2022; PANCAKESWAP first test launch.</li>
                 <li>May 2022: In-Stream $Doggcoin-NFT Marketplace Test launch.</li>
+              
+              </ul>
+            </p>
+            <span class="cd-date">May 18</span>
+          </div>
+        </div>
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-movie">
+           
+          
+          </div>
+
+          <div class="cd-timeline-content">
+            <h2>June 2022: Binance smartchain bridge.</h2>
+            <div class="timeline-content-info">
+              <span class="timeline-content-info-title">
+                <i class="fa fa-certificate" aria-hidden="true"></i>
+                {/* Total Available supply- 1M $DOGGCOINS */}
+              </span>
+              <span class="timeline-content-info-date">
+                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+               June 2022 
+              </span>
+            </div>
+            <p>
+              <ul>
+              
                 <li>
                 June 2022: Binance smartchain bridge.
                 </li>
@@ -74,7 +101,7 @@ function RoadMap() {
 </li>
               </ul>
             </p>
-            <span class="cd-date">May 18</span>
+            <span class="cd-date">June</span>
           </div>
         </div>
 

@@ -3,7 +3,7 @@ import Head from "next/head";
 
 import Web3 from "web3";
 import Navigation from "sections/Navigation";
-import BannerTwo from "sections/BannerTwo";
+
 import Banner from "sections/Banner";
 import Service from "sections/Service";
 import CoinFund from "sections/CoinFund";
@@ -14,8 +14,7 @@ import Wallet from "sections/Wallet";
 import Statistics from "sections/Statistics";
 import Stack from "sections/Stack";
 import Faq from "sections/Faq";
-import Footer from "sections/Footer";
-import BannerThree from "sections/BannerThree";
+
 import FavIcon from "assets/images/fav-icon.png";
 
 
