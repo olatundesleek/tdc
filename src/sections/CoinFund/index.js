@@ -107,7 +107,7 @@ const CoinFund = ({ connection, userAccount }) => {
               <Text as="span">$15,000,931</Text>
             </Box> */}
               <Box className="progressbar">
-              <Text className="raised" as="span">930 BNB</Text>
+              <Text className="raised" as="span">930 BNB (raised)</Text>
 
 
               <section>
@@ -134,7 +134,7 @@ const CoinFund = ({ connection, userAccount }) => {
               
             </article>
         </section>
-        <Text className="totaltoraise" as="span">3715.10 BNB</Text>
+        <Text className="totaltoraise" as="span">3715.10 BNB (total)</Text>
               </Box>
 
 
