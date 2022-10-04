@@ -438,8 +438,8 @@ display: none;}
   align-content: center;
   align-items: center;
   justify-content: space-between;}
-  .raised{font-weight: bolder;font-size: 20px;color:rgba(255, 208, 0, 0.6)}
-  .totaltoraise{color: #fff;font-weight: bolder;font-size: 20px;}
+  .raised{font-weight: bolder;font-size: 20px;color:rgba(255, 208, 0, 0.6);margin-right: 10px;}
+  .totaltoraise{color: #fff;font-weight: bolder;font-size: 20px;margin-left: 10px;}
 @keyframes animate1 {
   0% {
     left: -100%;
@@ -588,7 +588,7 @@ display: none;}
   text-align: center !important;
   cursor: pointer;
   margin: 0 !important;
-
+color: #ffffff;
   /* border-bottom: 2px solid #8665be; */
 }
 .journey-text-line-container {
@@ -1377,4 +1377,10 @@ section article p, section article:last-of-type {
   .showcase {
     background-image: url("../images/snoop1.gif") !important;
   }
+  .progressbar{flex-direction: column;}
+  section article{width:25em !important}
+}
+@media screen and (max-width: 500px) {
+
+  section article{width:18em !important}
 }

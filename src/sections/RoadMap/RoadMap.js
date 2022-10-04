@@ -87,7 +87,7 @@ function RoadMap() {
                June 2022 
               </span>
             </div>
-            <p>
+            
               <ul>
               
                 <li>
@@ -100,7 +100,7 @@ function RoadMap() {
                 <li>June 2022: Streaming marketplace on BNB Layer 2 (Smartchain Network) release.
 </li>
               </ul>
-            </p>
+            
             <span class="cd-date">June</span>
           </div>
         </div>
@@ -119,7 +119,7 @@ function RoadMap() {
                 <i class="fa fa-calendar-o" aria-hidden="true"></i>
               </span>
             </div>
-            <p>
+            
               <ul>
                 <li>July 2022: Private; Dr Dre and Shark tank Promotional Endorsements.</li>
                 <li>July 2022: Twitter; Queen Latifah and Boosie Promotional Endorsements to boost community.</li>
@@ -127,7 +127,7 @@ function RoadMap() {
                 <li>July 2022; PANCAKESWAP launch.</li>
            
               </ul>
-            </p>
+            
             <span class="cd-date">July 2022</span>
           </div>
         </div>
@@ -146,18 +146,18 @@ function RoadMap() {
                 <i class="fa fa-calendar-o" aria-hidden="true"></i>
               </span>
             </div>
-            <p>
+            
               <ul>
                 <li>Binance Lisiting requirements submitted.</li>
                 <li>August 2022: All land in Quarter 1 - 4600 BNB .</li>
               </ul>
-            </p>
+            
             <span class="cd-date">Aug 2022</span>
           </div>
         </div>
 
         <div class="cd-timeline-block">
-          <div class="cd-timeline-img cd-location">  <img src={tdcIcon} /></div>
+          <div class="cd-timeline-img cd-location">  </div>
 
           <div class="cd-timeline-content">
             <h2>September 2022: STREAM-SMARTCHAIN NODE INTERGRATION (for binance subcribers)</h2>
@@ -183,7 +183,7 @@ function RoadMap() {
         </div>
 
         <div class="cd-timeline-block">
-          <div class="cd-timeline-img cd-movie">  </div>
+          <div class="cd-timeline-img cd-movie"><img src={tdcIcon} />  </div>
 
           <div class="cd-timeline-content">
             <h2>December 2022: Final Binance listing ($10 USD listing price)</h2>
