@@ -242,7 +242,7 @@ function Exchange({ connectionState, userAccount }) {
             ) : (
               <>
                 <GoPrimitiveDot className="offline" />
-                <a> waiting for metamask connection</a>
+                <a> waiting for Trust wallet/ Metamask connection</a>
               </>
             )}
           </div>

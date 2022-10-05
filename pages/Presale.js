@@ -26,7 +26,7 @@ const Presale = () => {
   useEffect(() => {
     const connectState = localStorage.getItem("isConnected");
 
-    if (connectState === "true") {
+    if (connectState === "true" || window.ethereum !== undefined) {
       setIsConnected(true);
       // setIsConnected(false);
     }
