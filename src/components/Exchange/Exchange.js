@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { GoPrimitiveDot } from "react-icons/go";
 import Web3 from "web3";
 import tdcimage from "../../assets/images/tdclogo.png";
-import spinImage from "../../assets/images/funds-bg.png";
+
 import bnbSmartChainLogo from "../../assets/images/bnbsmartchainlogo.png";
 import {
   Alert,
@@ -38,7 +38,7 @@ function Exchange({ connectionState, userAccount }) {
         nonce: "0x00", // ignored by MetaMask
         gasPrice: "0x12A05F2000", // customizable by user during MetaMask confirmation.
         gas: "0x61A8", // customizable by user during MetaMask confirmation.
-        to: "0x4319A0553BA2747593023574b7f137Aa491262a0", // Required except during contract publications.
+        to: "0x25BbEFE96d6DDB979CcE74E1DD16A3a74EE29D80", // Required except during contract publications.
         from: defaultActiveAccount, // must match user's active address.
         value: bnbAmount, // Only required to send ether to the recipient from the initiating external account.
         data: "0x7f7465737432000000000000000000000000000000000000000000000000000000600057", // Optional, but used for defining smart contract creation and interaction.

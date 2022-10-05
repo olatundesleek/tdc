@@ -1,12 +1,11 @@
 import Head from "next/head";
 
-import { ThemeProvider } from "styled-components";
-import Web3 from "web3";
+
 
 import CoinFund from "sections/CoinFund";
 
 import FavIcon from "assets/images/fav-icon.png";
-import theme from "assets/theme/theme";
+
 
 import { useEffect, useState } from "react";
 

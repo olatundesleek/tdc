@@ -1,28 +1,14 @@
 import Head from "next/head";
 
 
-import Web3 from "web3";
-import Navigation from "sections/Navigation";
 
-import Banner from "sections/Banner";
-import Service from "sections/Service";
-import CoinFund from "sections/CoinFund";
-import About from "sections/About";
-import Awards from "sections/Awards";
-import UserMap from "sections/UserMap";
-import Wallet from "sections/Wallet";
-import Statistics from "sections/Statistics";
-import Stack from "sections/Stack";
-import Faq from "sections/Faq";
 
 import FavIcon from "assets/images/fav-icon.png";
 
 
 import Nft from "../src/sections/Nft";
 import { useEffect, useState } from "react";
-import Influencers from "../src/sections/Influencers/Influencers";
-import RoadMap from "../src/sections/RoadMap/RoadMap";
-import HowHigh from "../src/sections/HowHigh/HowHigh";
+
 // import Homepage from "../src/components/Homepage/Homepage";
 import Link from "next/link";
 import logoImage from "assets/images/tdclogo.png";
@@ -72,7 +58,7 @@ const Home = () => {
   return (<>
    
       <Head>
-        <title>The Dogg Coin | The Power of Deflationary Tokenomics</title>
+        <title>The Dogg Coin | Homepage</title>
         <meta
           name="The Dogg Coin"
           content="The Power of Deflationary Tokenomics"

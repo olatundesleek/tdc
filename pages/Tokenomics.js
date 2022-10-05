@@ -1,15 +1,14 @@
 import React from "react";
 import Head from "next/head";
-import { ThemeProvider } from "styled-components";
+
 
 import Statistics from "../src/sections/Statistics"
 
 import logoImage from "assets/images/tdclogo.png";
-import wallpaperImage from "assets/images/snoopwallpaper2.jpg";
+
 import Link from "next/link";
 import FavIcon from "assets/images/fav-icon.png";
-import theme from "assets/theme/theme";
-import GlobalStyle from "assets/theme";
+
 
 const Tokenomics = () => {
   return (<>
