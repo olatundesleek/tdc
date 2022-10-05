@@ -148,7 +148,7 @@ function RoadMap() {
             </div>
             
               <ul>
-                <li>Binance Lisiting requirements submitted.</li>
+                <li>Binance Listing requirements submitted.</li>
                 <li>August 2022: All land in Quarter 1 - 4600 BNB .</li>
               </ul>
             
