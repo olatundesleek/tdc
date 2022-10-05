@@ -9,12 +9,6 @@ import { IoIosArrowDown } from "react-icons/io";
 import Text from "reusecore/Text";
 import fundsBg from "assets/images/funds-bg.png";
 import binanceLogo from "assets/images/binancelogo.png";
-import {
-  FaBitcoin,
-  FaCcMastercard,
-  FaCcVisa,
-  FaCcDiscover,
-} from "react-icons/fa";
 
 import CoinFundWrapper from "./coinFund.style";
 import Exchange from "../../components/Exchange/Exchange";
