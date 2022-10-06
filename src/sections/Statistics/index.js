@@ -1,7 +1,7 @@
 // import React from "react";
 import { Heading } from "@chakra-ui/react";
 import { Container, Row, Col } from "reusecore/Layout";
-import { SectionTitle } from "reusecore/SectionTitle";
+
 import Box from "reusecore/Box";
 import Heading1 from "reusecore/Heading";
 import Image from "reusecore/Image";

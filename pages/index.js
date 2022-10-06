@@ -6,7 +6,7 @@ import Head from "next/head";
 import FavIcon from "assets/images/fav-icon.png";
 
 
-import Nft from "../src/sections/Nft";
+
 import { useEffect, useState } from "react";
 
 // import Homepage from "../src/components/Homepage/Homepage";

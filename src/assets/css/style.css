@@ -286,51 +286,9 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* filter: hue-rotate(110deg); */
 
-  /* margin: 40px 0;
-  display: inline-block;
-  
-  
- 
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  border: 0;
-  padding: 25px 30px;
-  font-size: 14px;
-  line-height: 50px;
-  color: #c90075 !important;
-  cursor: pointer;
-  z-index: 5;
-  -webkit-transition: 0.5s;
-  transition: all 0.4s ease-out 0s;
-  border-radius: 4px; */
-  /* background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#c90075),
-    color-stop(50%, #de00ac),
-    to(#c90075)
-  ); */
-  /* background: linear-gradient(to right, #c90075 0%, #de00ac 50%, #c90075 100%); */
-  /* background-size: auto;
-  background-size: 200% auto;
-  letter-spacing: 1px;
-  -webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1),
-    inset 0 -1px 1px 0 rgba(255, 255, 255, 0.2);
-  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1),
-    inset 0 -1px 1px 0 rgba(255, 255, 255, 0.2);
-  width: 100%;
-  transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  overflow: hidden; */
   height: 30px;
-  background: rgba(20,255,100,0.6);
+  background: rgba(20,255,100,0.9);
 }
 
 .swapspan {
@@ -371,6 +329,15 @@ input {
   -webkit-animation: rollmeta 2s linear infinite;
 display: none;}
 
+
+@keyframes glowbar {
+  0%{}
+
+ 
+  50%{box-shadow: 2px 20px 50px rgba(255, 208, 0, 0.9);}
+  0%{}
+}
+
 @keyframes rollmeta {
   from {
     transform-origin: center;
@@ -391,6 +358,7 @@ display: none;}
   }
 }
 
+ 
 .swapspan:nth-child(3) {
   bottom: 0;
   right: 0;
@@ -531,41 +499,11 @@ display: none;}
   -webkit-animation: nftgrow 10s ease-in-out infinite;
 }
 
-@keyframes nftgrow {
-  0% {
-    scale: 1;
-  }
-  50% {
-    scale: 1.1;
-  }
-  100% {
-    scale: 1;
-  }
-}
 
-@-webkit-keyframes nftgrow {
-  0% {
-    scale: 1;
-  }
-  50% {
-    scale: 1.1;
-  }
-  100% {
-    scale: 1;
-  }
-}
 
-@keyframes gaminggrow {
-  0% {
-    scale: 1;
-  }
-  50% {
-    scale: 1.1;
-  }
-  100% {
-    scale: 1;
-  }
-}
+
+
+
 .chakra-alert {
   animation: clipnotify 2s forwards;
 }
@@ -1272,7 +1210,10 @@ section article p, section article:last-of-type {
   transition: all 0.3s ease-in-out;
   transform: rotateX(60deg) rotateY(0deg);
   transform-style: preserve-3d;
+  transform-origin: center;
+  
 }
+
 .bar .face {
   font-size: 1em;
   position: relative;
@@ -1308,6 +1249,7 @@ section article p, section article:last-of-type {
   background-color: rgba(255, 208, 0, 0.6);
   width: 100%;
   height: 2em;
+  animation: glowbar infinite 2s;
 }
 .bar.yellow .side-a, .bar.yellow .growing-bar {
   background-color: rgba(241, 196, 15, .6);

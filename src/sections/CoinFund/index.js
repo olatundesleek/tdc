@@ -7,7 +7,7 @@ import Box from "reusecore/Box";
 import Heading from "reusecore/Heading";
 import { IoIosArrowDown } from "react-icons/io";
 import Text from "reusecore/Text";
-import fundsBg from "assets/images/funds-bg.png";
+
 import binanceLogo from "assets/images/binancelogo.png";
 
 import CoinFundWrapper from "./coinFund.style";
@@ -35,9 +35,7 @@ const CoinFund = ({ connection, userAccount }) => {
 
   return (
     <Box className="CoinFund">
-      <Box className="balldiv">
-        <img classname="meta-ball" src={fundsBg} />
-      </Box>
+   
       <CoinFundWrapper id="token">
         <Container>
           <Row>
