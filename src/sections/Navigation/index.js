@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 import { Container } from "reusecore/Layout";
-import logo from "assets/images/logo-white.png";
+import logo from "assets/images/tdclogo.png";
 
 import Data from "./utility/data.js";
 import ScrollspyMenu from "./utility/ScrollspyMenu";
@@ -35,7 +35,7 @@ const Navigation = ({ load, logout, connection }) => {
         <div className="navbar-wrap">
           <Link href="/">
             <a className="logo">
-              <img src={logo} alt="Triple Shiba" />
+              <img src={logo} className="logo-image" alt="The Dogg Coin" />
             </a>
           </Link>
           <nav className="nav">

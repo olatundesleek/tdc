@@ -4,14 +4,14 @@ import FavIcon from "assets/images/fav-icon.png";
 
 const Main = ({
   children,
-  title = "Triple Shiba | Next gentrations react next landing page",
+  title = "The Dogg Coin | What is Dogg Coin",
 }) => {
   return (
     <React.Fragment>
       <Head>
         <title>{title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="Description" content="React next landing page" />
+        <meta name="Description" content="The Dogg Coin" />
         <meta name="theme-color" content="#ec5555" />
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
         <link

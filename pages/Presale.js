@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 
-
+import Navigation from "sections/Navigation";
 import CoinFund from "sections/CoinFund";
 
 import FavIcon from "assets/images/fav-icon.png";
@@ -77,24 +77,17 @@ const Presale = () => {
         
       </Head>
 
-      {/* <GlobalStyle /> */}
-      {/* <Navigation
+   
+      <Navigation
         load={loadAccount}
         logout={logoutAccount}
         connection={isConnected}
-      /> */}
+      />
+      
       <div className="presale-container">
      <section class="showcase-presale">
-        <nav className="homepage-nav">
-          <Link href="/">
-            <a className="homepage-nav-a">
-              <img className="logo-image" src={logoImage} />
-            </a>
-          </Link>
-        </nav>
-        <div class="video-container">
-      
-        </div>
+   
+  
    
       </section>
   

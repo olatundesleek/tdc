@@ -21,19 +21,20 @@ const NavigationWrap =  styled.header`
     font-size: 24px;
   }
   .nav__button{
+  
     width: 170px;
     height: 60px;
     background: ${props => props.theme.white};
     border-radius: 5px;
     font-size: 18px;
-    color: ${props => props.theme.linkColor};
+    color: #ffffff;
     transition: all 0.3s ease-in;
     &:hover,
     &:focus{
       outline: none;
       border: none;
-      background: linear-gradient( 93deg,rgba(196,56,231,1) 0%,rgba(122,49,222,1) 52%,rgba(37,42,213,1) 100% );
-      color: ${props => props.theme.white};
+      background: #ffffff;
+      color: #000000;
     }
   }
   /*Drop down style*/ 
@@ -111,7 +112,7 @@ const NavigationWrap =  styled.header`
           transition: 450ms all;
         }
         &:hover{
-          color: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : '#1F2AD5'};
+          color: #fca009;
           &:before{
             opacity: 1;
           }
@@ -128,7 +129,8 @@ const NavigationWrap =  styled.header`
   }
   &.scrolled{ 
     box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 30px;
-    background: #290E59;
+ 
+    opacity:0.3;
     border-color: ${props => props.theme.NavBGSolid};
     .navbar-wrap{
       border-color: transparent
@@ -160,7 +162,8 @@ const NavigationWrap =  styled.header`
     height: auto;
     min-height: 50px;
     padding: 15px 20px;
-    background: #290E59;
+ 
+    background: #0f2b1b;
     &.scrolled{
         padding: 8px 20px;
         border-color: transparent;
@@ -196,12 +199,14 @@ const NavigationWrap =  styled.header`
         border-color: transparent;
         display: block;
         position: relative;
+        padding-bottom:20px;
     }
     .logo {
       width: 100%;
       display: block;
       margin: 7px 0 0 0;
       img{width: 110px;}
+      filter: drop-shadow(5px 5px 5px #fff) !important;
     }
     .mobile-menu-icon {
       display: inline-block;
@@ -243,7 +248,7 @@ const NavigationWrap =  styled.header`
           a{
             padding: 8px 10px;
             display: block;
-            color: white;
+            color: #ffffff;
             &:before{
               content: none;
             }

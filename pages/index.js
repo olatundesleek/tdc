@@ -87,7 +87,7 @@ const Home = () => {
           <video src="/video/snoopbackground.mp4" autoPlay loop></video>
         </div>
         <div class="content">
-          <Link href="/Roadmap">
+          <Link href="/whatisdoggcoin">
             <button
               className="main-btn main-btn-1 btn-block btn-lg swapbtn"
               metamask-switch-network-button=""
@@ -96,7 +96,7 @@ const Home = () => {
               <span className="swapspan"></span>
               <span className="swapspan"></span>
               <span className="swapspan"></span>
-              ROAD MAP
+             What is $Doggcoin
             </button>
           </Link>
           <Link href="/Tokenomics">
@@ -108,7 +108,7 @@ const Home = () => {
               <span className="swapspan"></span>
               <span className="swapspan"></span>
               <span className="swapspan"></span>
-             TOKENOMICS
+             How to Buy
             </button>
           </Link>
           <Link href="/Presale">

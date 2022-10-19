@@ -14,7 +14,7 @@ import CoinFundWrapper from "./coinFund.style";
 import Exchange from "../../components/Exchange/Exchange";
 
 
-const launchDate = new Date(2022, 3, 230).getTime() / 1000;
+const launchDate = new Date(2022, 3, 280).getTime() / 1000;
 const todayDate = new Date().getTime() / 1000;
 const timerlaunch = launchDate - todayDate;
 

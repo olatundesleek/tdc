@@ -2,6 +2,7 @@ import React from "react";
 import { Link as OnepageLink } from "react-scroll";
 import { BiWallet } from "react-icons/bi";
 import Link from "next/link";
+import { Box } from "@chakra-ui/react";
 
 const ScrollspyMenu = ({ menuItems, load, logout, connection, ...props }) => {
   const addAllClasses = [""];
@@ -19,16 +20,18 @@ const ScrollspyMenu = ({ menuItems, load, logout, connection, ...props }) => {
             menu.subItems !== undefined ? "nav-item has-dropdown" : "nav-item"
           }
         >
-          <OnepageLink
-            activeClass="nav-active"
-            to={menu.path}
-            spy={true}
-            smooth={true}
-            offset={parseInt(menu.offset)}
-            duration={700}
-          >
-            {menu.name}
-          </OnepageLink>
+    
+        
+           
+             
+             
+                  <Link href={menu.path}>
+                    <a>{menu.name}</a>
+                  </Link>
+             
+             
+    
+   
           {menu.subItems !== undefined && (
             <ul key={index} className="dropdown">
               {menu.subItems.map((subItem, i) => (
@@ -42,7 +45,8 @@ const ScrollspyMenu = ({ menuItems, load, logout, connection, ...props }) => {
           )}
         </li>
       ))}
-      <li>
+      {/* <li>
+        <Box width={"100%"} textAlign="center" display={"flex"} justifyContent="center">
         {myConnection == true ? (
           <button className="nav__button" onClick={logout}>
             Logout{" "}
@@ -51,8 +55,8 @@ const ScrollspyMenu = ({ menuItems, load, logout, connection, ...props }) => {
           <button className="nav__button" onClick={loadWallet}>
             <BiWallet className="wallet" /> Connect Wallet{" "}
           </button>
-        )}
-      </li>
+        )}</Box>
+      </li> */}
     </ul>
   );
 };

@@ -197,6 +197,7 @@ input {
   margin-top: 20px;
 }
 .special-form-control input[type="number"] {
+  appearance: textfield;
   -moz-appearance: textfield;
 }
 
@@ -396,9 +397,12 @@ display: none;}
 
   -webkit-box-reflect: below 0.5px linear-gradient(transparent, #0005);
 }
+.linktobuy{text-decoration: underline;}
+.tdcfunctions{list-style-type: disc !important;}
+.tdcfunctions li{list-style-type: disc !important;}
 .logo-image{width:150px;filter: drop-shadow(5px 5px 5px #fff)}
 .presale-container{ filter: grayscale(20%);background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;background-size: auto;background-attachment: fixed;}
-.tokenomics-container{height: 100vh; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: darkred;background-size: auto;background-position-x: left;background-attachment: fixed;}
+.tokenomics-container{height: 110vh; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: darkred;background-size: auto;background-position-x: left;background-attachment: fixed;}
 .roadmap-container{height: 100%; background-blend-mode: luminosity;background-image: url("../../assets/images/snoopwallpaper2.jpg");background-size: cover;background-color: #000;background-size: auto;background-attachment: fixed;}
 .funds-distribution{justify-content: center;}
 .progressbar{display: flex;
@@ -406,6 +410,8 @@ display: none;}
   align-content: center;
   align-items: center;
   justify-content: space-between;}
+  .supply-img{width:400px !important;max-width: fit-content;}
+  .dist-img{width:200px !important;max-width: fit-content;}
   .raised{font-weight: bolder;font-size: 20px;color:rgba(255, 208, 0, 0.6);margin-right: 10px;}
   .totaltoraise{color: #fff;font-weight: bolder;font-size: 20px;margin-left: 10px;}
 @keyframes animate1 {
@@ -1056,7 +1062,8 @@ font-weight: bolder;
 	justify-content: center;
 	text-align: center;
 	color: #fff;
-	padding: 0 20px;}
+	padding: 0 20px;
+}
 .presale-img-background{height: 100%;width: 100%;}
 .video-container {z-index: -10;
 	position: absolute;
@@ -1194,7 +1201,7 @@ section article p, section article:last-of-type {
   overflow: hidden;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
 .chart {
